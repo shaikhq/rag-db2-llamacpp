@@ -1,6 +1,6 @@
 # Build a Local RAG Pipeline with Db2 Vector Search, llama.cpp Embeddings, and Watsonx.ai Answers
 
-This project walks through a full Retrieval-Augmented Generation (RAG) pipeline using open components for local embedding generation and a production-grade database for vector storage and retrieval.
+This project walks through a full Retrieval-Augmented Generation (RAG) pipeline using open components for local embedding generation and a production-grade database, IBM Db2, for vector storage and retrieval.
 
 The pipeline combines:
 
@@ -16,7 +16,7 @@ Most parts of this setup—cleaning source text, chunking, embedding, prompt con
 
 * How to run `llama.cpp` for local inference on a CPU-only system
 * How to clean and segment raw HTML using sentence-aware chunking
-* How to generate and store embeddings
+* How to generate embeddings with `llama.cpp` with a text embedding model, such as `granite-embedding-30m`
 * How to use Db2’s `VECTOR` type and similarity functions for retrieval
 * How to send grounded prompts to a hosted LLM and retrieve responses
 
@@ -28,7 +28,7 @@ Most parts of this setup—cleaning source text, chunking, embedding, prompt con
 flowchart TD
     subgraph Data Preparation
         A[llama.cpp Setup<br>Download embedding model]
-        B[Fetch & Clean Blog Post]
+        B[Fetch & Clean a Blog Post]
     end
 
     subgraph Embedding & Storage
