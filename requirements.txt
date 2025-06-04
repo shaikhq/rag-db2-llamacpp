@@ -1,0 +1,17 @@
+ipykernel
+ibm-watsonx-ai
+python-dotenv
+rich
+beautifulsoup4
+langchain_chroma
+langchain_ibm
+nbformat
+pandas
+matplotlib
+ibm_db
+itables
+scikit-learn
+numpy
+spacy
+trafilatura
+huggingface-hub
