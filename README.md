@@ -1,4 +1,4 @@
-# Build a Local RAG Pipeline with Db2 Vector Search, llama.cpp Embeddings, and Watsonx.ai Answers
+# Build a Local RAG Pipeline with Db2, llama.cpp, and Watsonx.ai
 
 This project walks through a full Retrieval-Augmented Generation (RAG) pipeline using open components for local embedding generation and a production-grade database, IBM Db2, for vector storage and retrieval.
 
