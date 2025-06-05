@@ -2,8 +2,6 @@ ipykernel
 ibm-watsonx-ai
 python-dotenv
 rich
-beautifulsoup4
-langchain_chroma
 langchain_ibm
 nbformat
 pandas
